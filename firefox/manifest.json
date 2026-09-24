@@ -3,7 +3,7 @@
   "name": "Site Wipe",
   "version": "1.0.1",
   "description": "Clear cookies, cache, IndexedDB, local storage and session storage for the site you're currently on — one click, with confirmation.",
-  "homepage_url": "https://github.com/YOUR_GITHUB_USERNAME/site-wipe",
+  "homepage_url": "https://github.com/jakobudovic/site-wipe",
   "background": {
     "scripts": ["background.js"]
   },

@@ -2,8 +2,9 @@
 
 One click to clear cookies, cache storage, IndexedDB, local storage, and session storage - scoped to the exact site you're currently on. Nothing else, nowhere else, and never without asking first.
 
-**Firefox:** _not yet published - link goes here once live on addons.mozilla.org_
-**Chrome:** _not yet published - link goes here once live on the Chrome Web Store_
+**Firefox:** **TODO — add the live [Firefox Add-ons](https://addons.mozilla.org/) listing URL after publishing.**
+
+**Chrome:** **TODO — add the live [Chrome Web Store](https://chrome.google.com/webstore/) listing URL after publishing.**
 
 ## Why
 
@@ -111,4 +112,4 @@ After each is approved, replace the two placeholder links at the top of this REA
 
 ## Author
 
-Built by [YOUR_GITHUB_USERNAME](https://github.com/YOUR_GITHUB_USERNAME).
+Built by [jakobudovic](https://github.com/jakobudovic).
