@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Site Wipe</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="app">
+
+    <header class="head">
+      <div class="site" id="site-row">
+        <img id="favicon" class="favicon" alt="" />
+        <div class="site-text">
+          <div class="domain" id="domain">—</div>
+          <div class="protocol" id="protocol">&nbsp;</div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+
+      <section id="unsupported" class="state hidden">
+        <div class="state-icon">⌀</div>
+        <p>Site Wipe can't access data on this page.</p>
+        <p class="muted">Open a regular website tab and try again.</p>
+      </section>
+
+      <section id="loading" class="state">
+        <div class="spinner"></div>
+      </section>
+
+      <section id="content" class="state hidden">
+        <ul class="items" id="items"></ul>
+
+        <div class="total-row">
+          <span id="total-label">Nothing to clear</span>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer" id="footer">
+      <button id="clear-btn" class="btn btn-primary" disabled>Clear</button>
+
+      <div id="confirm-row" class="confirm-row hidden">
+        <span class="confirm-text">Delete <strong id="confirm-count"></strong> for <strong id="confirm-domain"></strong>?</span>
+        <div class="confirm-actions">
+          <button id="cancel-btn" class="btn btn-ghost">Cancel</button>
+          <button id="confirm-btn" class="btn btn-danger">Delete</button>
+        </div>
+      </div>
+
+      <div id="done-row" class="done-row hidden">
+        <div class="done-headline">
+          <span class="done-icon" id="done-icon">✓</span>
+          <span id="done-text">Cleared</span>
+        </div>
+        <p id="done-note" class="done-note hidden"></p>
+      </div>
+    </footer>
+
+    <div class="credit">
+      <a href="https://github.com/YOUR_GITHUB_USERNAME/site-wipe" target="_blank" rel="noopener noreferrer">github.com/YOUR_GITHUB_USERNAME/site-wipe</a>
+    </div>
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
